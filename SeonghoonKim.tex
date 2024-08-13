@@ -1,0 +1,213 @@
+%-------------------------
+% Resume in LateX
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/seonghoon-kim-55195915a/}{\Large Seonghoon Kim}} & Email: \href{mailto:tjdgnsqn133@gmail.com}{tjdgnsqn133@gmail.com}\\
+  \href{https://www.linkedin.com/in/seonghoon-kim-55195915a/}{LinkedIn}\\
+\end{tabular*}
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bucketplace}{Seoul, South Korea}
+      {Software Engineer}{Jan 2024 -- Present}
+      \resumeItemListStart
+      \resumeItem{Improve development cycle}
+        {I Improved a development cycle by developing an algorithm.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {HYPERCONNECT}{Seoul, South Korea}
+      {Software Engineer}{Nov 2022 -- Jan 2024}
+      \resumeItemListStart
+      \resumeItem{CQRS}
+        {I Implemented CQRS systems for the admin system. Because the number of data are 200M, it was needed to split database systems.}
+      \resumeItem{SDK}
+        {I Provided techknowledge to the companies under MATCH GROUP.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CREMA}{Seoul, South Korea}
+      {Tech Lead \& Manager}{Jun 2022 -- Nov 2022}
+      \resumeItemListStart
+      \resumeItem{Automation widget installations}
+        {I developed automation processes with my team to improve our bottleneck processes. Becuase widget installation processes were inevitable and needed much time.}
+      \resumeItemListEnd
+      
+      \resumeSubSubheading
+       {Software Engineer}{Nov 2018 - Jun 2022}
+       \resumeItemListStart
+       \resumeItem{Review widgets}
+         {I developed a main feature of the company.}
+       \resumeItem{Payment migration}
+         {For revenue boost, the payment migration was needed, because there were no point and cash system. I developed a new payment system including migration to provide new payment system for a few thousands clients.}
+       \resumeItem{Recommendation widgets}
+         {For clients' revenue boost, recommendation widgets were needed for end-user. I developed recommendation widgets by collaborating with a data science team.}
+       \resumeItemListEnd
+
+    \resumeSubheading
+      {Nurigo}{Seoul, South Korea}
+      {Software Engineer}{Dec 2017 - Oct 2018}
+      \resumeItemListStart
+      \resumeItem{Developed all new messaging services}
+        {Nurigo is a messaging service provider as SaaS. I devloped all new services with a new architecture for spike traffic}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Contributions}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Spring Projects}
+      {\href{https://github.com/pulls?q=is\%3Apr+author\%3AKSH-code+archived\%3Afalse+is\%3Aclosed+org\%3Aspring-projects+}{2 merged tasks link}}
+    \resumeSubItem{Rails}
+      {\href{https://github.com/pulls?q=is\%3Apr+author\%3AKSH-code+archived\%3Afalse+is\%3Aclosed+org\%3Arails}{1 merged task link}}
+    \resumeSubItem{Refined Github}
+      {\href{https://github.com/pulls?q=is\%3Apr+author\%3AKSH-code+archived\%3Afalse+is\%3Aclosed+org\%3Arefined-github+}{3 merged tasks link}}
+    \resumeSubItem{Oj}
+      {\href{https://github.com/pulls?q=is\%3Apr+author\%3AKSH-code+archived\%3Afalse+is\%3Aclosed+repo\%3Aohler55\%2Foj}{1 merged task link}}
+    \resumeSubItem{Connect Mongo}
+      {\href{https://github.com/pulls?q=is\%3Apr+author\%3AKSH-code+archived\%3Afalse+is\%3Aclosed+repo\%3Ajdesboeufs\%2Fconnect-mongo}{1 merged task link}}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Kookmin University}{Seoul, South Korea}
+      {Bachelor of Science in Computer Science; Major GPA: 3.69}{Drop-out}
+  \resumeSubHeadingListEnd
+
+%--------SKILLS------------
+\section{Honors \& Awards}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Software Development Hackathon}
+     \begin{itemize}
+      \item{[1st prize] 15th AppJam Issued by Seoul Digital Foundation - Mar 2018}
+      \item{[3rd prize]}{14th AppJam Issued by Seoul Digital Foundation - Dec 2017}
+     \end{itemize}
+     }
+     \item{
+       \textbf{Algorithm Contest}
+       \begin{itemize}
+        \item{[1st prize]}{1st Algorithm Contest - Issued by Semyeong Computer High School - Nov 2016}
+        \item{[Speicial prize]}{3rd Algorithm Contest - Issued by Nexon - Aug 2018}
+        \item{[5th prize]}{3rd Algorithm Contest - Issued by Kookmin University. Aug 2018}
+      \end{itemize}
+   }
+     \item{
+       \textbf{Software Development Contest}
+       \begin{itemize}
+        \item{[3rd prize]}{Smarteen App Challenge 2017 - Issued by SK techx - Nov 2017}
+      \end{itemize}
+   }
+ \resumeSubHeadingListEnd
+
+%--------SKILLS------------
+%\section{Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, JavaScript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
